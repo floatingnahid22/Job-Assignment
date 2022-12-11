@@ -1,0 +1,107 @@
+[
+  {
+    "Dessert(100g serving)": "Nougat",
+    "Calories": 360,
+    "Fat(g)": 19,
+    "Carbs(g)": 9,
+    "Protein(g)": 37
+  },
+  {
+    "Dessert(100g serving)": "Kitkat",
+    "Calories": 518,
+    "Fat(g)": 26,
+    "Carbs(g)": 65,
+    "Protein(g)": 7
+  },
+  {
+    "Dessert(100g serving)": "Cadbury",
+    "Calories": 240,
+    "Fat(g)": 14,
+    "Carbs(g)": 59,
+    "Protein(g)": 6
+  },
+  {
+    "Dessert(100g serving)": "Cadbury cookie",
+    "Calories": 370,
+    "Fat(g)": 19,
+    "Carbs(g)": 88,
+    "Protein(g)": 9
+  },
+  {
+    "Dessert(100g serving)": "Honeycomb",
+    "Calories": 408,
+    "Fat(g)": 3.2,
+    "Carbs(g)": 87,
+    "Protein(g)": 6.5
+  },
+  {
+    "Dessert(100g serving)": "Eclair",
+    "Calories": 262,
+    "Fat(g)": 16,
+    "Carbs(g)": 24,
+    "Protein(g)": 6
+  },
+  {
+    "Dessert(100g serving)": "Donut",
+    "Calories": 452,
+    "Fat(g)": 25,
+    "Carbs(g)": 51,
+    "Protein(g)": 4.9
+  },
+  {
+    "Dessert(100g serving)": "Cupcake",
+    "Calories": 305,
+    "Fat(g)": 3.7,
+    "Carbs(g)": 67,
+    "Protein(g)": 4.3
+  },
+  {
+    "Dessert(100g serving)": "Ice creame sandwich",
+    "Calories": 237,
+    "Fat(g)": 9,
+    "Carbs(g)": 37,
+    "Protein(g)": 4.3
+  },
+  {
+    "Dessert(100g serving)": "Frozen yoghurt",
+    "Calories": 159,
+    "Fat(g)": 6,
+    "Carbs(g)": 24,
+    "Protein(g)": 4
+  },
+  {
+    "Dessert(100g serving)": "Oreo",
+    "Calories": 437,
+    "Fat(g)": 18,
+    "Carbs(g)": 63,
+    "Protein(g)": 4
+  },
+  {
+    "Dessert(100g serving)": "Gingerbread",
+    "Calories": 356,
+    "Fat(g)": 16,
+    "Carbs(g)": 49,
+    "Protein(g)": 3.9
+  },
+  {
+    "Dessert(100g serving)": "Marshmellow",
+    "Calories": 318,
+    "Fat(g)": 0,
+    "Carbs(g)": 81,
+    "Protein(g)": 2
+  },
+  {
+    "Dessert(100g serving)": "Jelly Bean",
+    "Calories": 375,
+    "Fat(g)": 0,
+    "Carbs(g)": 94,
+    "Protein(g)": 0
+  },
+  {
+    "Dessert(100g serving)": "Lollipop",
+    "Calories": 392,
+    "Fat(g)": 0.2,
+    "Carbs(g)": 98,
+    "Protein(g)": 0
+  }
+]
