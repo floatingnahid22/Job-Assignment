@@ -4,7 +4,7 @@
 
 <p> 1. Download the Project. </p>
 
-[[info](Cap1.PNG)]
+[![info](Cap1.PNG)]
 
 <p> 2. Extract that ZIP file and open the project folder on your IDE i.e. Vs Code. </p>
 <p> 3. Go to Project directory:</p>
