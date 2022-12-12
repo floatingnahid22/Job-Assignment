@@ -1,8 +1,9 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { COLUMNS } from "./columns";
 import axios from "axios";
-import { useTable, useSortBy, usePagination } from "react-table";
+import { useTable, useSortBy, usePagination, useRowSelect } from "react-table";
 import "./table.css";
+import { Checkbox } from "./Checkbox";
 
 export const BasicTable = () => {
   const [data, setData] = useState([]);
@@ -31,6 +32,7 @@ export const BasicTable = () => {
     canNextPage,
     state,
     setPageSize,
+    pageOptions,
     headerGroups,
     prepareRow,
   } = useTable(
@@ -40,7 +42,20 @@ export const BasicTable = () => {
       initialState: { pageIndex: 0, pageSize: 5 },
     },
     useSortBy,
-    usePagination
+    usePagination,
+    useRowSelect,
+    (hooks) => {
+      hooks.visibleColumns.push((columns) => [
+        {
+          id: "selection",
+          Header: ({ getToggleAllRowsSelectedProps }) => (
+            <Checkbox {...getToggleAllRowsSelectedProps()} />
+          ),
+          Cell: ({ row }) => <Checkbox {...row.getToggleRowSelectedProps()} />,
+        },
+        ...columns,
+      ]);
+    }
   );
 
   const { pageIndex, pageSize } = state;
@@ -92,7 +107,7 @@ export const BasicTable = () => {
         </select>
         <span>
           <strong>
-            {pageIndex + 1} of {data.length}
+            {pageIndex + 1} of {pageOptions.length}
           </strong>{" "}
         </span>
         <button
