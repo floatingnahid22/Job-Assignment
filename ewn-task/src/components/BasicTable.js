@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { COLUMNS } from "./columns";
 import axios from "axios";
-import { useTable } from "react-table";
+import { useTable, useSortBy } from "react-table";
 import "./table.css";
 
 export const BasicTable = () => {
@@ -22,10 +22,13 @@ export const BasicTable = () => {
   const columns = useMemo(() => COLUMNS, []);
   const myData = useMemo(() => data, [data]);
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
-    useTable({
-      columns,
-      data: myData,
-    });
+    useTable(
+      {
+        columns,
+        data: myData,
+      },
+      useSortBy
+    );
 
   return (
     <>
@@ -34,7 +37,12 @@ export const BasicTable = () => {
           {headerGroups.map((headerGroup) => (
             <tr {...headerGroup.getHeaderGroupProps()}>
               {headerGroup.headers.map((column) => (
-                <th {...column.getHeaderProps()}>{column.render("Header")}</th>
+                <th {...column.getHeaderProps(column.getSortByToggleProps())}>
+                  {column.render("Header")}
+                  <span>
+                    {column.isSorted ? (column.isSortedDesc ? " ↓" : " ↑") : ""}
+                  </span>
+                </th>
               ))}
             </tr>
           ))}
