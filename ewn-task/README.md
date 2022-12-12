@@ -4,7 +4,7 @@
 
 <p> 1. Download the Project. </p>
 
-[![info](ewn-task/Cap1.PNG)]
+![info](https://i.postimg.cc/nVvLyKd8/Cap1.png)
 
 <p> 2. Extract that ZIP file and open the project folder on your IDE i.e. Vs Code. </p>
 <p> 3. Go to Project directory:</p>
