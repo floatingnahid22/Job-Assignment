@@ -26,3 +26,15 @@ tfoot td {
   background-color: #5c8aa1;
   color: white;
 }
+
+.footer {
+  text-align: right;
+}
+.rows_per_page {
+  border: none;
+}
+
+.next_prev {
+  border: none;
+  outline: none;
+}
