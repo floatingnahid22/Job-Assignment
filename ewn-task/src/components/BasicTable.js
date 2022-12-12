@@ -21,13 +21,11 @@ export const BasicTable = () => {
 
   const columns = useMemo(() => COLUMNS, []);
   const myData = useMemo(() => data, [data]);
-  const tableInstance = useTable({
-    columns,
-    data: myData,
-  });
-
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
-    tableInstance;
+    useTable({
+      columns,
+      data: myData,
+    });
 
   return (
     <>
