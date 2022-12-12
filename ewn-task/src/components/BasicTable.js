@@ -105,7 +105,7 @@ export const BasicTable = () => {
             </option>
           ))}
         </select>
-        <span>
+        <span className="page_num">
           <strong>
             {pageIndex + 1} of {pageOptions.length}
           </strong>{" "}

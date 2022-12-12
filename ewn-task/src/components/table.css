@@ -27,11 +27,21 @@ tfoot td {
   color: white;
 }
 
+tbody {
+  text-align: center;
+}
+
 .footer {
   text-align: right;
+  padding: 15px 30px;
 }
 .rows_per_page {
   border: none;
+}
+
+.page_num {
+  border: none;
+  padding: 25px;
 }
 
 .next_prev {
