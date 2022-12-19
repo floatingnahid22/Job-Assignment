@@ -1,13 +1,19 @@
 import { useMissionsQuery } from "./services/missionsApi";
 import "./App.css";
-import { Card } from "antd";
+import { Card, Input } from "antd";
 
 const App = () => {
   const { data, error, isLoading, isFetching, isSuccess } = useMissionsQuery();
-
   return (
     <div className="App">
-      <h1>SpaceX Launches</h1>
+      <div className="nav">
+        <h1>SpaceX Launches</h1>
+        <Input
+          className="search"
+          type="search"
+          placeholder="Search for a rocket"
+        />
+      </div>
       {isLoading && <h2>...Loading</h2>}
       {isFetching && <h2>...Fetching</h2>}
       {error && <h2>Something went wrong</h2>}

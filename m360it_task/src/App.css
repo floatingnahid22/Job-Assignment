@@ -1,5 +1,10 @@
-.App {
-  text-align: left;
+.nav {
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+  width: 50%;
 }
 
 .data {
