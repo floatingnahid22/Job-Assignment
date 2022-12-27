@@ -277,8 +277,8 @@ const products = [
     productName: "Kool After Shave Lotion 50 ml",
     imgUrl: productImg12,
     category: "Men's Products",
-    subcategory: "nothing",
-    price: 2900,
+    subcategory: "bestsale",
+    price: 290,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -300,7 +300,7 @@ const products = [
     productName: "Depiwhite Day SPF 20-40 ml",
     imgUrl: productImg13,
     category: "SKIN CARE",
-    subcategory: "nothing",
+    subcategory: "trending",
     price: 1330,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
