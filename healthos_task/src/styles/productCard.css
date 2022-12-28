@@ -9,7 +9,7 @@
   margin-top: 15px;
 }
 
-.product__info a:hover {
+.product__info a {
   color: inherit;
 }
 
