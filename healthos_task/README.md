@@ -1,6 +1,6 @@
 # Health-OS Task:
 
-[![carefirst](https://i.postimg.cc/DzVkbcN7/home1.png)](https://carefirst-2.netlify.app/home)
+Project Link: https://carefirst-2.netlify.app/home
 
 ## How to run this project:
 
