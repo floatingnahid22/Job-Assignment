@@ -1,0 +1,14 @@
+.admin__menu {
+  width: 100%;
+  height: 300px;
+  background: var(--card-bg-01);
+}
+
+.admin__navigation {
+  text-align: left;
+}
+
+.admin__menu-list {
+  text-align: left;
+  column-gap: 2.7rem;
+}
